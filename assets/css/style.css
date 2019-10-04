@@ -1,0 +1,70 @@
+h1 {
+  background-color: #c9621c;
+  color: white;
+  width: 270px;
+  text-align: center;
+  line-height: 3em;
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+
+body {
+  background-image: url("../images/trees.png");
+}
+
+.rules {
+  background-color: #fbe6cf;
+  width: 400px;
+  padding-top: 15px;
+  padding-left: 5px;
+  height: 350px;
+  font-weight: bold;
+  color: green;
+  margin-left: 10px;
+}
+
+#random {
+  background-color: #53c987;
+  width: 200px;
+  height: 100px;
+  font-size: 32px;
+  display: inline-flex;
+  margin-left: 10px;
+  padding-left: 5px;
+}
+
+.score {
+  display: inline-flex;
+  flex-direction: column;
+  margin-top: 15px;
+  height: 100px;
+  background-color: #03fcf8;
+  width: 65px;
+  color: green;
+  padding-left: 5px;
+  margin-left: 5px;
+}
+
+.crystal {
+  background-color: white;
+  height: 80px;
+  padding: 5px;
+  margin-left: 10px;
+  margin-top: 15px;
+  margin-right: -5px;
+}
+
+.total-score {
+  background-color: #1fa397;
+  width: 200px;
+  margin-left: 10px;
+  line-height: 1.5em;
+  color: white;
+  padding-left: 5px;
+}
+
+.total-score:last-of-type {
+  height: 100px;
+  font-size: 32px;
+  margin-top: 15px;
+}
